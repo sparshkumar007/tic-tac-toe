@@ -35,3 +35,7 @@ func (s *gameService) GetGame(ctx context.Context, req GetGameRequest) (resp Get
 	}
 	return resp, nil
 }
+
+func (s *gameService) CreateGame(ctx context.Context, req CreateGameRequest) (resp CreateGameResponse, err error) {
+	return
+}
